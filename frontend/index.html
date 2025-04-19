@@ -119,7 +119,7 @@
             });
 
             const result = await response.json();
-            document.getElementById('result').innerText = `📊 Predicted Sales: ₹${result.predicted_sales.toFixed(2)}`;
+            document.getElementById('result').innerText = `📊 Predicted Sales: ${result.predicted_sales.toFixed(2)} units`;
         });
     </script>
 </body>
